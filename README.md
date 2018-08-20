@@ -14,19 +14,19 @@
 
 ## Steps of project:
 
-1. Data aquisition, cleaning and preparation.
-2. Building model with Tensor Flow.
-3. Model training.
+1. Data acquisition, cleaning and preparation of dataset.
+2. Building model with Keras.
+3. Model training (Test-Train).
 4. Developing Flask app.
 5. Developing Front-end.
 6. Deploying.
 
 ## Local use:
 
-Install all necessary libraries.
-Proceed to local_app --> app folder.
-Run app.py
-Open localhost http://127.0.0.1:5000/
+-Install all necessary libraries.
+-Proceed to local_app --> app folder.
+-Run app.py
+-Open localhost http://127.0.0.1:5000/
 
 ## Team Members:
 
@@ -41,6 +41,7 @@ Open localhost http://127.0.0.1:5000/
 - Python
 - Tensor Flow
 - Keras
+- Pandas
 - BeautifulSoup
 - MongoDB
 - Selenium
