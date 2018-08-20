@@ -6,18 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill|Lato:300i,400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
         <link rel="stylesheet" type="text/css" media="screen" href="{{ url_for('static', filename='styles/main.css') }}"/>
         <link rel="shortcut icon" href="{{ url_for('static', filename='styles/img/favicon.ico') }}">
-              
-    </head>
 
+    </head>
     <body>
         <div class="wrapper">
             <header>
                 <div class="haiku-cont">
                     <div class='gen-top'>
                         <div id="submitGen" class="generate" type='button'>GENERATE</div>
-                        <div class="br">b</div>
+                        <div class="br"></div>
                         <div class="haiku">a haiku</div>
                     </div>
                     <form id="generate-form" class="gn" action="/haiku" method="POST">
@@ -33,19 +33,19 @@
                         <input id="invizeng" class="invis" name="eng" value="">
                         <input id="invizother" class="invis" name="other" value="">
                         <input id="invizlanng" class="invis" name="langg" value="">
-                    </form>   
+                    </form>
                 </div>
                 <div class="change">
                     <span class="tr spa">Spanish</span>
                     <span class="tr fra">French</span>
                 </div>
-                
+
             </header>
-                
+
             <div class="fields">
                 <div class="finput">
                     <form id="translate-form" action="/form" method="POST" role="form">
-                        
+
                         <label class="form-label">Enter text in English</label>
                         <input class="form-field" id="inputlang" name="input-text" value='{{lang.input}}' placeholder="Enter text">
                         <input id="invizlang" class="invis" name="lang" value="">
@@ -54,16 +54,16 @@
                     </form>
                 </div>
                 <div class="fbutton">
-                    
+
                     <button id="submitForm" type="button" class="baton"></button>
                 </div>
-                <div class="foutput">   
-                    
+                <div class="foutput">
+
                     <label class="form-label">Translation {{lang.trans}}</label>
                     <input class="form-field" id="outputlang" value='{{lang.output}}'>
-                    
+
                 </div>
-                <div id="graph">    
+                <div id="graph">
                 </div>
                 <div id="arrow">
                 </div>
