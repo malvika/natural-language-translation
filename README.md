@@ -23,10 +23,10 @@
 
 ## Local use:
 
--Install all necessary libraries.
--Proceed to local_app --> app folder.
--Run app.py
--Open localhost http://127.0.0.1:5000/
+- Install all necessary libraries.
+- Proceed to local_app --> app folder.
+- Run app.py
+- Open localhost http://127.0.0.1:5000/
 
 ## Team Members:
 
@@ -48,3 +48,6 @@
 - Flask
 - JavaScript
 - HTML
+
+## Output of the project
+![project.png](project.png)
